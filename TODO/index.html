@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="calculator">
-      <div class="input-field">
-        <input type="text" />
+    <div class="todo">
+      <div class="task-item-container">
+        <input type="text" id="task" />
       </div>
-      <div class="buttons">
-        
+      <div class="tasks">
+        <ul id="task-list"></ul>
+      </div>
+      <div class="add-task">
+        <button onclick="addTask()">Add</button>
       </div>
     </div>
     <script src="script.js"></script>

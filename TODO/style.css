@@ -1,0 +1,33 @@
+body {
+  background: #c31432; /* fallback for old browsers */
+  background: linear-gradient(to right, #240b36, #c31432);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+}
+
+.input-button {
+  text-align: center; 
+}
+
+.task-item-container,
+.add-task {
+  display: inline-block; 
+  margin-right: 10px; 
+}
+
+.todo input {
+  width: 100%;
+  outline: none;
+  padding: 4px;
+  font-size: 14px;
+}

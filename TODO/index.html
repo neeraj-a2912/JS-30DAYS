@@ -8,14 +8,16 @@
   </head>
   <body>
     <div class="todo">
-      <div class="task-item-container">
-        <input type="text" id="task" />
+      <div class="input-button">
+        <div class="task-item-container">
+          <input type="text" id="task" />
+        </div>
+        <div class="add-task">
+          <button onclick="addTask()">Add</button>
+        </div>
       </div>
       <div class="tasks">
         <ul id="task-list"></ul>
-      </div>
-      <div class="add-task">
-        <button onclick="addTask()">Add</button>
       </div>
     </div>
     <script src="script.js"></script>

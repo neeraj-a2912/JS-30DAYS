@@ -18,12 +18,13 @@ body {
   cursor: pointer;
   border: 2px solid black;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 12px;
   padding: 8px;
   background-color: inherit;
   color: black;
   transition-duration: 0.4s;
   text-transform: uppercase;
+  font: inherit;
 }
 
 .btn button:hover {

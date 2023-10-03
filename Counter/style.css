@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(207, 202, 202);
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container #number {
+  font-size: 100px;
+  margin: 0;
+}
+
+.container .btn {
+  padding: 6px 8px;
+  outline: none;
+  margin: 0 8px 0 8px;
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+  font: inherit;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}

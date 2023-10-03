@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227, 219, 219);
+  font-family: sans-serif;
+}
+
+.btn {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn button {
+  outline: none;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 8px;
+  background-color: inherit;
+  color: black;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.btn button:hover {
+  background-color: black;
+  color: white;
+}

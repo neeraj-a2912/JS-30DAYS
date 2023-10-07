@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  color: rgb(225, 148, 161);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.review-card {
+  width: 300px;
+  padding: 14px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.author {
+  font-size: 28px;
+  text-align: center;
+  margin: 14px 0;
+  font-weight: bold;
+}
+
+.review-text {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.icons {
+  text-align: center;
+  margin: 10px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  background-color: rgb(225, 148, 161);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+}

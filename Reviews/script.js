@@ -1,6 +1,6 @@
 const reviews = [
   {
-    author: "Aloney Neeraj",
+    author: "Neeraj",
     review:
       "Amazing food. PERIOD. Service is always perfect, food is always on point, and the staff is very friendly and accommodating. Always looking forward to this place with my friends, the fried vanilla ice cream is exceptionally good!",
     city: "New York, NY",
@@ -79,16 +79,28 @@ let currentItem = 0;
 
 function showItem() {
   author.textContent = reviews[currentItem].author;
-  reviewText.textContent = reviews[currentItem].review;
+  reviewText.textContent = reviews[currentItem].review.substring(0,100)+"...";
   city.textContent = reviews[currentItem].city;
 }
+
+window.addEventListener("load", function () {
+  currentItem = 0;
+  showItem();
+});
+
 prev.addEventListener("click", function () {
   currentItem--;
+  if (currentItem < 0) {
+    currentItem = reviews.length - 1;
+  }
   showItem();
 });
 
 next.addEventListener("click", function () {
   currentItem++;
+  if (currentItem > reviews.length - 1) {
+    currentItem = 0;
+  }
   showItem();
 });
 

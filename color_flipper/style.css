@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: rgb(227, 219, 219);
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  color: white;
 }
 
 .btn {
@@ -11,6 +17,7 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .btn button {
@@ -20,14 +27,15 @@ body {
   border-radius: 8px;
   font-size: 12px;
   padding: 8px;
-  background-color: inherit;
-  color: black;
+  background-color: black;
+  color: white;
   transition-duration: 0.4s;
   text-transform: uppercase;
   font: inherit;
 }
 
 .btn button:hover {
-  background-color: black;
+  background-color: inherit;
   color: white;
+  border: none;
 }

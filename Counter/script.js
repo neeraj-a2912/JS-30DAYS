@@ -1,10 +1,6 @@
 let counter = document.getElementById("number");
 let current = 0;
 
-if (current < 0) {
-  document.body.style.backgroundColor = "red";
-}
-
 const increment = document.getElementById("increment");
 increment.addEventListener("click", function () {
   current++;
@@ -22,5 +18,3 @@ reset.addEventListener("click", function () {
   current = 0;
   counter.textContent = current;
 });
-
-

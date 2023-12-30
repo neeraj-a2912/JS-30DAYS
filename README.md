@@ -1,1 +1,1 @@
-# will be updated soon
+* repository for vanilla-js projects

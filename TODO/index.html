@@ -10,29 +10,32 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-md-4 mx-auto">
-          <h1 class="display-3">Todo List</h1>
+          <p class="display-5 text-center mb-4">My Todos</p>
           <div class="input-group mb-3">
             <input
               type="text"
-              class="form-control shadow-none"
+              class="form-control fs-6 shadow-none"
               id="newTask"
             />
             <button
-              class="btn btn-dark"
+              class="btn material-symbols-outlined px-2"
               type="submit"
               id="addTodo"
             >
-              Add
+              add
             </button>
           </div>
-          <div id="allTasks">
-          </div>
+          <div id="allTasks"></div>
         </div>
       </div>
     </div>

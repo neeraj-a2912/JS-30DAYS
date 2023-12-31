@@ -1,5 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 body {
-  background: linear-gradient(to right, #240b36, #c31432);
+  background-color: #872341;
   margin-top: 50px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  color: white;
+  background-color: #22092C;
+}
+
+.material-symbols-outlined {
+  margin: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.card {
+  background-color: #F05941;
   color: white;
 }

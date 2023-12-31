@@ -9,12 +9,12 @@ const todoArray = localStorage.getItem("todos")
 // const editButton = document.getElementById("edit");
 
 // function to display date
-const displayDate = () => {
-  let date = new Date();
-  date = date.toString().split(" ");
-  document.getElementById("date").textContent =
-    date[1] + " " + date[2] + " " + date[3];
-};
+// const displayDate = () => {
+//   let date = new Date();
+//   date = date.toString().split(" ");
+//   document.getElementById("date").textContent =
+//     date[1] + " " + date[2] + " " + date[3];
+// };
 
 // function to add a new task
 const addNewTask = (e) => {
@@ -63,5 +63,5 @@ addTodo.addEventListener("click", addNewTask);
 
 window.onload = () => {
   displayItems();
-  displayDate();
+  //   displayDate();
 };

@@ -32,7 +32,8 @@ const addNewTask = (e) => {
 const displayItems = () => {
   let todos = "";
   for (let i = 0; i < todoArray.length; i++) {
-    todos += `<div class="card mb-2">
+    todos += `<div class="col-lg-4 col-md-6 col-sm-12">
+<div class="card m-1">
   <div class="card-body d-flex justify-content-between">
     <p>${todoArray[i]}</p>
     <div class='edit-delete'>
@@ -41,6 +42,7 @@ const displayItems = () => {
         </span>
     </div>
   </div>
+</div>
 </div>`;
   }
   allTodos.innerHTML = todos;
@@ -63,5 +65,5 @@ addTodo.addEventListener("click", addNewTask);
 
 window.onload = () => {
   displayItems();
-  //   displayDate();
+  //  displayDate();
 };

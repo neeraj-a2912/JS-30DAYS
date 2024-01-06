@@ -65,5 +65,4 @@ addTodo.addEventListener("click", addNewTask);
 
 window.onload = () => {
   displayItems();
-  //  displayDate();
 };

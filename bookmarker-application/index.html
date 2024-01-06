@@ -42,79 +42,26 @@
             type="text"
             class="form-control shadow-none mb-2"
             name="siteName"
+            id="siteName"
+            required
           />
           <label for="siteUrl" class="form-label text-light">Site URL</label>
-          <input type="text" class="form-control shadow-none" name="siteUrl" />
-          <button class="btn btn-primary w-100 mt-2">Add Bookmark</button>
+          <input
+            type="text"
+            class="form-control shadow-none"
+            name="siteUrl"
+            id="siteUrl"
+            required
+          />
+          <button id="addBookmark" class="btn btn-primary w-100 mt-2">
+            Add Bookmark
+          </button>
         </div>
       </div>
-      <div class="row justify-content-center mt-5">
-        <div class="fs-3 text-light text-center mb-3">Saved Bookmarks</div>
+      <div class="row justify-content-center mt-5" id="bookmarksList">
         <!-- Card Component Starts Here-->
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-          <div class="card bg-white">
-            <div
-              class="card-body d-flex justify-content-between align-items-center"
-            >
-              <p class="card-title">Facebook</p>
-              <div class="buttons">
-                <a href="#" class="btn btn-sm"
-                  ><i class="bi bi-box-arrow-up-right"></i
-                ></a>
-                <a href="#" class="btn btn-sm"><i class="bi bi-trash3"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-          <div class="card bg-white">
-            <div
-              class="card-body d-flex justify-content-between align-items-center"
-            >
-              <p class="card-title">Google</p>
-              <div class="buttons">
-                <a href="#" class="btn btn-sm"
-                  ><i class="bi bi-box-arrow-up-right"></i
-                ></a>
-                <a href="#" class="btn btn-sm"><i class="bi bi-trash3"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-          <div class="card bg-white">
-            <div
-              class="card-body d-flex justify-content-between align-items-center"
-            >
-              <p class="card-title">Youtube</p>
-              <div class="buttons">
-                <a href="#" class="btn btn-sm"
-                  ><i class="bi bi-box-arrow-up-right"></i
-                ></a>
-                <a href="#" class="btn btn-sm"><i class="bi bi-trash3"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
-          <div class="card bg-white">
-            <div
-              class="card-body d-flex justify-content-between align-items-center"
-            >
-              <p class="card-title">Instagram</p>
-              <div class="buttons">
-                <a href="#" class="btn btn-sm"
-                  ><i class="bi bi-box-arrow-up-right"></i
-                ></a>
-                <i class="bi bi-trash3 btn btn-sm"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <p class="fs-6 mt-5 text-light text-center">&copy; Neeraj 2023</p>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
